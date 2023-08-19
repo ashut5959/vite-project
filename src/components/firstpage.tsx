@@ -10,7 +10,7 @@ interface FormData {
   email: string;
 }
 
-const FormPage = ({ setIsFirstPageFilled }: FirstPageProps) => {
+const FirstPage = ({ setIsFirstPageFilled }: FirstPageProps) => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState<FormData>({
     name: "",
@@ -117,4 +117,4 @@ const FormPage = ({ setIsFirstPageFilled }: FirstPageProps) => {
   );
 };
 
-export default FormPage;
+export default FirstPage;

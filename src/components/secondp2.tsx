@@ -18,7 +18,7 @@ const departments = [
   },
 ];
 
-const Second = () => {
+const SecondComponent: React.FC = () => {
   return (
     <div>
       {departments.map((department) => (
@@ -29,4 +29,4 @@ const Second = () => {
 };
 
 
-export default Second
+export default SecondComponent
